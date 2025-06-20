@@ -1,0 +1,116 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #fff;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.offer-box {
+  width: 340px;
+  border: 1px solid #eee;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.title {
+  text-align: center;
+  font-weight: bold;
+  color: #f43f5e;
+  margin-bottom: 20px;
+}
+
+.plan {
+  border: 2px solid #ddd;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.plan input[type="radio"] {
+  margin-right: 10px;
+}
+
+.plan .badge {
+  font-size: 10px;
+  background-color: #f43f5e;
+  color: #fff;
+  padding: 2px 5px;
+  border-radius: 4px;
+  margin-left: 5px;
+}
+
+.plan .price {
+  float: right;
+  font-weight: bold;
+}
+
+.plan .old-price {
+  text-decoration: line-through;
+  font-size: 12px;
+  color: #999;
+  margin-left: 5px;
+}
+
+.most-popular {
+  border-color: #f43f5e;
+  background: #fff0f4;
+}
+
+.most-popular-tag {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background-color: #f43f5e;
+  color: white;
+  padding: 2px 8px;
+  font-size: 10px;
+  border-radius: 4px;
+}
+
+.dropdowns {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+  flex-wrap: wrap;
+}
+
+.dropdowns div {
+  flex: 1;
+}
+
+.dropdowns select {
+  width: 100%;
+  padding: 5px;
+  margin-top: 4px;
+}
+
+.footer {
+  text-align: center;
+  font-size: 14px;
+  color: #999;
+  margin: 10px 0;
+}
+
+.total {
+  text-align: right;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.add-to-cart {
+  width: 100%;
+  background-color: #f43f5e;
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.add-to-cart:hover {
+  background-color: #e11d48;
+}
